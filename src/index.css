@@ -16,7 +16,7 @@
 }
 
 .nav-links {
-	@apply hover:bg-black/50 p-3 rounded-full;
+	@apply hover:bg-black/50 p-3 rounded-full max-lg:text-sm max-lg:p-2;
 	letter-spacing: 0.5px;
 }
 
