@@ -2,6 +2,9 @@ import Typewriter from "typewriter-effect";
 import profile from "../assets/profile.jpg";
 import LanguageSection from "./LanguageSection";
 import { FaMapPin } from "react-icons/fa";
+import { Button } from "@nextui-org/react";
+import { MdOutlineCloudDownload } from "react-icons/md";
+import resume from "../assets/Resume.pdf";
 
 const Introduction = () => {
 	return (
@@ -24,6 +27,18 @@ const Introduction = () => {
 							loop: true,
 						}}
 					/>
+				</div>
+				<div className="mt-3">
+					<a href={resume} target="_blank" rel="noopener noreferrer">
+						<Button
+							endContent={<MdOutlineCloudDownload size={18} />}
+							color="default"
+							variant="shadow"
+							radius="full"
+						>
+							Resume
+						</Button>
+					</a>
 				</div>
 			</div>
 			<div className="h-[300px] w-[200px] xl:h-[350px] xl:w-[250px]">
