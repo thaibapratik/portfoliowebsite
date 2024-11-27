@@ -21,10 +21,10 @@ const Introduction = () => {
 				<div className="flex gap-[7px] xl:text-lg font-medium items-center text:md">
 					<span>I'm a</span>
 					<Typewriter
-						options={{
-							strings: ["Front End Developer."],
-							autoStart: true,
-							loop: true,
+						onInit={(typewriter) => {
+							typewriter
+								.typeString("Front End Developer.")
+								.start();
 						}}
 					/>
 				</div>

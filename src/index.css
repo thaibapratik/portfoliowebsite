@@ -26,3 +26,7 @@
 	-webkit-box-shadow: 7px 18px 42px 3px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 7px 18px 42px 3px rgba(0, 0, 0, 0.75);
 }
+
+.heading {
+	@apply text-3xl text-white text-center tracking-widest font-light mt-10 uppercase;
+}

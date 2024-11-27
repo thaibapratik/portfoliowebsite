@@ -6,7 +6,8 @@ const Experience = () => {
 	const [selectedTab, setSelectedTab] = useState("Education");
 	return (
 		<div>
-			<div className="text-white mt-16 text-center">
+			<h1 className="heading">Experience</h1>
+			<div className="text-white mt-24 text-center relative">
 				<Tabs
 					title="Education"
 					selectedTab={selectedTab}
@@ -18,6 +19,7 @@ const Experience = () => {
 					setSelectedTab={setSelectedTab}
 				></Tabs>
 			</div>
+
 			{selectedTab === "Education" ? <Education /> : <Work />}
 		</div>
 	);
@@ -27,7 +29,7 @@ export default Experience;
 const Tabs = ({ title, selectedTab, setSelectedTab }) => {
 	return (
 		<div
-			className={`cursor-pointer inline text-center border-2 border-white py-5 px-3
+			className={`relative cursor-pointer inline text-center border-2 border-white py-5 px-2.5
 				${
 					title === "Education"
 						? "rounded-l-full border-r-0"
@@ -37,8 +39,8 @@ const Tabs = ({ title, selectedTab, setSelectedTab }) => {
 			onClick={() => setSelectedTab(title)}
 		>
 			<div
-				className={`inline px-16 py-3 ${
-					selectedTab === title && "bg-darkerGrey rounded-full "
+				className={`inline px-20 py-3 ${
+					selectedTab === title && "rounded-full bg-darkerGrey"
 				}`}
 			>
 				{title}
