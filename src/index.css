@@ -28,5 +28,9 @@
 }
 
 .heading {
-	@apply text-3xl text-white text-center tracking-widest font-light mt-10 uppercase;
+	@apply text-3xl text-white text-center tracking-widest font-light pt-10 uppercase;
+}
+
+.social-links {
+	@apply hover:translate-x-3 hover:scale-105 font-light text-white/90 hover:font-normal;
 }

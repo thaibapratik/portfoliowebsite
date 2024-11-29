@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 
 const NavBar = ({ blurColor }) => {
-	const navLinks = ["home", "experience", "project", "contact me"];
+	const navLinks = ["home", "experience", "project", "contact"];
 	const [menu, setMenu] = useState(true);
 	return (
 		<nav className="sm:flex">
@@ -36,7 +36,7 @@ const NavBar = ({ blurColor }) => {
 							<a
 								key={link}
 								href={`#${link}`}
-								className="nav-links "
+								className="nav-links"
 							>
 								{link}
 							</a>
