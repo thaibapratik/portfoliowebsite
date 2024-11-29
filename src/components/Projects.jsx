@@ -24,6 +24,15 @@ const Projects = () => {
 			],
 			imageURL: screenshot1,
 		},
+		{
+			title: "My portfolio",
+			languages: [
+				{ name: "React", icon: ReactIcon },
+				{ name: "Tailwind", icon: TailwindIcon },
+				{ name: "NextUI", icon: NextUIIcon },
+			],
+			imageURL: screenshot1,
+		},
 	];
 
 	return (

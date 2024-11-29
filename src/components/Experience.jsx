@@ -29,7 +29,7 @@ export default Experience;
 const Tabs = ({ title, selectedTab, setSelectedTab }) => {
 	return (
 		<div
-			className={`relative cursor-pointer inline text-center border-2 border-white py-5 px-2.5
+			className={`relative cursor-pointer inline text-center border-2 border-white py-5 px-2.5 
 				${
 					title === "Education"
 						? "rounded-l-full border-r-0"

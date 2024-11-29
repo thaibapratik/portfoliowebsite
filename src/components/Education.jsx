@@ -21,7 +21,7 @@ const Education = () => {
 		},
 	];
 	return (
-		<div className="border-1 border-white m-10 rounded-xl text-white h-[19rem] w-[39rem] flex justify-end">
+		<div className="border-1 border-white m-10 rounded-xl text-white h-[19rem] w-[39rem] flex justify-end max-sm:w-[20rem] ">
 			<div className="border-l-1 w-[35rem] pt-14">
 				{educations.map((education) => (
 					<ExperienceTable

@@ -18,16 +18,16 @@ const Contact = () => {
 	];
 
 	return (
-		<section className="h-[100vh]">
+		<section className="pb-32">
 			<h2 className="heading">Contact</h2>
-			<div className="flex justify-center  gap-40">
-				<h1 className="text-6xl text-white mt-32 ml-20 leading-[1.5]">
+			<div className="flex justify-center gap-52 max-sm:flex-col max-sm:gap-0 max-sm:text-center">
+				<h1 className="text-6xl max-sm:text-4xl text-white mt-32 ml-20 leading-[1.5] max-sm:ml-5">
 					Let's start a <br />
 					project together
 				</h1>
 				<div>
 					<div>
-						<h3 className="text-xl text-white tracking-wider pt-32">
+						<h3 className="text-xl text-white tracking-wider pt-32 max-sm:pt-20">
 							Email
 						</h3>
 						<ul className="text-md text-white">
@@ -45,7 +45,7 @@ const Contact = () => {
 						<h3 className="text-xl text-white tracking-wider mt-10">
 							Socials
 						</h3>
-						<div className="flex flex-col gap-1 mt-1">
+						<div className="flex flex-col gap-1 mt-1 max-sm:items-center">
 							{socials.map((social) => (
 								<a
 									href={social.link}

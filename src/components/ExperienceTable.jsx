@@ -6,7 +6,7 @@ const ExperienceTable = ({ experience }) => {
 					<img
 						src={experience.icon}
 						alt={`${experience.institution} logo`}
-						className="rounded-full object-cover h-10 w-10 absolute top-2 -left-5 border-white border-3"
+						className="rounded-full object-cover h-10 w-10 absolute top-2 -left-5 border-white border-3 max-sm:left-1"
 					/>
 				)}
 			</div>
