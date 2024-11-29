@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import { FaReact as ReactIcon } from "react-icons/fa";
 import { RiTailwindCssFill as TailwindIcon } from "react-icons/ri";
 import { SiNextui as NextUIIcon } from "react-icons/si";
+import screenshot1 from "../assets/screenshot1.png";
 
 const Projects = () => {
 	const projects = [
@@ -12,6 +13,7 @@ const Projects = () => {
 				{ name: "Tailwind", icon: TailwindIcon },
 				{ name: "NextUI", icon: NextUIIcon },
 			],
+			imageURL: screenshot1,
 		},
 		{
 			title: "My portfolio",
@@ -20,6 +22,7 @@ const Projects = () => {
 				{ name: "Tailwind", icon: TailwindIcon },
 				{ name: "NextUI", icon: NextUIIcon },
 			],
+			imageURL: screenshot1,
 		},
 	];
 

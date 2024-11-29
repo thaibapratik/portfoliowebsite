@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 
 const App = () => {
 	return (
-		<main className="dark bg-background">
+		<main className="dark bg-background w-full overflow-hidden">
 			{/* home */}
 			<div
 				className="mesh flex justify-center items-center h-[100vh]"

@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
 					<Image
 						alt="Card background"
 						className="object-cover rounded-xl"
-						src="https://nextui.org/images/hero-card-complete.jpeg"
+						src={project.imageURL}
 						width={270}
 					/>
 				</CardBody>
