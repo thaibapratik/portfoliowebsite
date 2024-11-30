@@ -32,11 +32,11 @@ const Contact = () => {
 						</h3>
 						<ul>
 							<li className="text-md text-white/60">
-								thaibapratik890@gmail.com
+								pratikthaiba890.com
 							</li>
 						</ul>
 						<div className="mt-3">
-							<a href="mailto:thaibapratik890@gmail.com">
+							<a href="mailto:pratikthaiba890@gmail.com">
 								<Button size="lg" className="hover:scale-105">
 									Send mail <IoIosMail size={20} />
 								</Button>
@@ -54,7 +54,7 @@ const Contact = () => {
 									target="_blank"
 									key={social.link}
 								>
-									<div className="flex flex-row items-center gap-1 group w-fit social-links">
+									<div className="flex flex-row items-center gap-1 group w-fit hover:translate-x-2 duration-300">
 										<social.icon
 											size={20}
 											className="text-white/60 group-hover:text-white transition-colors duration-75"
