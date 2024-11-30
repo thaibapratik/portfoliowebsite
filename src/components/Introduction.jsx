@@ -5,6 +5,8 @@ import { FaMapPin } from "react-icons/fa";
 import { Button } from "@nextui-org/react";
 import { MdOutlineCloudDownload } from "react-icons/md";
 import resume from "../assets/Resume.pdf";
+import { FaGithub as Github } from "react-icons/fa";
+import linkedin from "../assets/linkedin.png";
 
 const Introduction = () => {
 	return (
@@ -28,14 +30,40 @@ const Introduction = () => {
 						}}
 					/>
 				</div>
+				{/* social icons */}
+				<div className="mt-3 flex gap-4">
+					<a href="https://github.com/thaibapratik" target="_blank">
+						<Github
+							size={40}
+							color="black"
+							className="hover:-translate-y-2"
+						/>
+					</a>
 
-				<div className="mt-3">
-					<a href={resume} target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://www.linkedin.com/in/pratik-thaiba-6a0a21309/"
+						target="_blank"
+					>
+						<img
+							src={linkedin}
+							alt=""
+							width={42}
+							className="hover:-translate-y-2"
+						/>
+					</a>
+
+					<a
+						href={resume}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="ml-5"
+					>
 						<Button
 							endContent={<MdOutlineCloudDownload size={18} />}
 							color="default"
 							variant="shadow"
 							radius="full"
+							className="hover:scale-105"
 						>
 							Resume
 						</Button>

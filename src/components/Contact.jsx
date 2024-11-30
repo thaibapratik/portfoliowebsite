@@ -30,12 +30,14 @@ const Contact = () => {
 						<h3 className="text-xl text-white tracking-wider pt-32 max-sm:pt-20">
 							Email
 						</h3>
-						<ul className="text-md text-white">
-							<li>thaibapratik890@gmail.com</li>
+						<ul>
+							<li className="text-md text-white/60">
+								thaibapratik890@gmail.com
+							</li>
 						</ul>
 						<div className="mt-3">
 							<a href="mailto:thaibapratik890@gmail.com">
-								<Button size="lg">
+								<Button size="lg" className="hover:scale-105">
 									Send mail <IoIosMail size={20} />
 								</Button>
 							</a>
@@ -50,14 +52,11 @@ const Contact = () => {
 								<a
 									href={social.link}
 									target="_blank"
-									className="social-links"
+									key={social.link}
 								>
-									<div className="flex flex-row flex-1 items-center gap-1">
-										<div className="">
-											<social.icon
-												color="white"
-												size={20}
-											/>
+									<div className="flex flex-row flex-1 items-center gap-1 social-links w-fit ">
+										<div>
+											<social.icon size={20} />
 										</div>
 										{social.name}
 									</div>

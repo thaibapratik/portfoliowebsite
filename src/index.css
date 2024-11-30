@@ -12,7 +12,6 @@
 	padding: 0px;
 	margin: 0px;
 	transition: all 0.3s ease-in-out;
-	overflow: visible;
 	scroll-behavior: smooth;
 }
 
@@ -32,5 +31,5 @@
 }
 
 .social-links {
-	@apply hover:translate-x-3 hover:scale-105 font-light text-white/90 hover:font-normal;
+	@apply hover:translate-x-3 hover:scale-105 font-light text-white/60 hover:font-normal hover:text-white;
 }

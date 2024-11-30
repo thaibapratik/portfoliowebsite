@@ -14,6 +14,7 @@ const Projects = () => {
 				{ name: "NextUI", icon: NextUIIcon },
 			],
 			imageURL: screenshot1,
+			siteURL: "https://thaibapratik.github.io/portfoliowebsite",
 		},
 		{
 			title: "My portfolio",
@@ -23,6 +24,7 @@ const Projects = () => {
 				{ name: "NextUI", icon: NextUIIcon },
 			],
 			imageURL: screenshot1,
+			siteURL: "https://thaibapratik.github.io/portfoliowebsite",
 		},
 		{
 			title: "My portfolio",
@@ -32,6 +34,7 @@ const Projects = () => {
 				{ name: "NextUI", icon: NextUIIcon },
 			],
 			imageURL: screenshot1,
+			siteURL: "https://thaibapratik.github.io/portfoliowebsite",
 		},
 	];
 
