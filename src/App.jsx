@@ -12,10 +12,11 @@ const App = () => {
 		<main className="dark bg-background w-full overflow-hidden">
 			{/* home */}
 			<div
-				className="mesh flex justify-center items-center h-[100vh]"
+				className="mesh flex justify-center items-center h-[100vh] "
 				id="home"
 			>
 				<NavBar blurColor="bg-black/20" />
+
 				<Introduction />
 			</div>
 

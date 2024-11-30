@@ -21,15 +21,10 @@ const Education = () => {
 		},
 	];
 	return (
-		<div className="border-1 border-white m-10 rounded-xl text-white h-[19rem] w-[39rem] flex justify-end max-sm:w-[20rem] ">
-			<div className="border-l-1 w-[35rem] pt-14">
-				{educations.map((education) => (
-					<ExperienceTable
-						key={education.title}
-						experience={education}
-					/>
-				))}
-			</div>
+		<div className="border border-white m-10 rounded-xl text-white flex justify-start flex-col pr-32 pl-20 max-sm:pl-10 max-sm:pr-10 max-sm:rounded-none">
+			{educations.map((education) => (
+				<ExperienceTable key={education.title} experience={education} />
+			))}
 		</div>
 	);
 };

@@ -5,9 +5,9 @@ const Work = () => {
 	const works = [];
 
 	return (
-		<div className="border border-white m-10 rounded-xl text-white h-[19rem] w-[39rem] flex justify-end">
+		<div className="border border-white m-10 rounded-xl text-white flex justify-start flex-col pr-32 pl-20 max-sm:pl-10 max-sm:pr-10 max-sm:rounded-none">
 			{works.length === 0 ? (
-				<h2 className="text-2xl text-white text-center w-full p-10">
+				<h2 className="text-2xl text-white text-center w-full p-10 max-sm:text-xl">
 					No results found!
 				</h2>
 			) : (
