@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
 					>
 						<Image
 							alt="Card background"
-							className="object-cover rounded-xl cursor-pointer hover:scale-[1.02] shadow-md hover:shadow-[#2e5a83]"
+							className="object-cover rounded-xl cursor-pointer hover:scale-[1.02] shadow-md hover:shadow-[#918adcc0]"
 							src={project.imageURL}
 							width={270}
 							height={180}
