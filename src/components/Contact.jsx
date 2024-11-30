@@ -54,11 +54,14 @@ const Contact = () => {
 									target="_blank"
 									key={social.link}
 								>
-									<div className="flex flex-row flex-1 items-center gap-1 social-links w-fit ">
-										<div>
-											<social.icon size={20} />
-										</div>
-										{social.name}
+									<div className="flex flex-row items-center gap-1 group w-fit social-links">
+										<social.icon
+											size={20}
+											className="text-white/60 group-hover:text-white transition-colors duration-75"
+										/>
+										<span className="text-white/60 group-hover:text-white transition-colors duration-300">
+											{social.name}
+										</span>
 									</div>
 								</a>
 							))}

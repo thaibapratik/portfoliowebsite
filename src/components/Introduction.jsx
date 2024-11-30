@@ -35,8 +35,7 @@ const Introduction = () => {
 					<a href="https://github.com/thaibapratik" target="_blank">
 						<Github
 							size={40}
-							color="black"
-							className="hover:-translate-y-2"
+							className="hover:-translate-y-2 text-black"
 						/>
 					</a>
 

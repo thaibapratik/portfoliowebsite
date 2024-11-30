@@ -3,7 +3,7 @@ import "../mesh.css";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 
-const NavBar = ({ blurColor }) => {
+const NavBar = () => {
 	const navLinks = ["home", "experience", "project", "contact"];
 	const [menu, setMenu] = useState(true);
 

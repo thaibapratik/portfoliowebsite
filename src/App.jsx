@@ -15,7 +15,7 @@ const App = () => {
 				className="mesh flex justify-center items-center h-[100vh] "
 				id="home"
 			>
-				<NavBar blurColor="bg-black/20" />
+				<NavBar />
 
 				<Introduction />
 			</div>

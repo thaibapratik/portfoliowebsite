@@ -11,7 +11,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in;
 	scroll-behavior: smooth;
 }
 
@@ -28,8 +28,4 @@
 
 .heading {
 	@apply text-3xl text-white text-center tracking-widest font-light pt-10 uppercase;
-}
-
-.social-links {
-	@apply hover:translate-x-3 hover:scale-105 font-light text-white/60 hover:font-normal hover:text-white;
 }
